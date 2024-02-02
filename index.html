@@ -8,20 +8,40 @@
         <link rel="stylesheet" href="stylesheet.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </head>
     <body>
+        <div class="nav">
+            <div class="navigation">
+                <span style="--i:0;--x:-1;--y:0;"><i class='bx bx-objects-vertical-bottom' onclick="skills"></i></span>
+                <span style="--i:1;--x:1;--y:0;"><i class='bx bx-code-alt'onclick="projects" ></i></span>
+                <span style="--i:2;--x:0;--y:-1;"><i class='bx bx-user' onclick="about"></i></span>
+                <span style="--i:3;--x:0;--y:1;"><i class='bx bx-link' ></i></span>
+                <span style="--i:4;--x:-1;--y:1;"><i class='bx bx-envelope' onclick="contact"></i></span>
+                <span style="--i:5;--x:-1;--y:-1;"><i class='bx bx-home-circle' onclick="home"></i></span>
+                <span style="--i:6;--x:1;--y:-1;"><i class='bx bx-file' onclick="services"></i></span>
+                <span style="--i:7;--x:1;--y:1;"><i class='bx bxs-download' ></i></span>
+            </div>
+            <div class="close"><i class='bx bx-x'></i></div>
+         </div>
+         
+         <script>
+            let navigation = document.querySelector('.navigation');
+            let close = document.querySelector('.close');
+            navigation.onclick = function(){
+                navigation.classList.add('active');
+            }
+            close.onclick = function(){
+                navigation.classList.remove('active');
+            }
+         </script>
+
         <header class="header">
             <a href="#" class="logo">Portfolio</a>
 
-            <nav class="navbar">
-                <a href="#home" style="--i:1"class="active">Home</a>
-                <a href="#about" style="--i:2">About</a>
-                <a href="#service" style="--i:3">Skills</a>
-                <a href="#skills" style="--i:4">Projects</a>
-                <a href="#contact" style="--i:5">Contact</a>
-            </nav>
         </header>
-        <section class="home">
+        <section class="home" id="home">
             <div class="home-content">
                 <h3>Hello, It's Me</h3>
                 <h1>Rhealyn Panganiban</h1>
@@ -60,13 +80,13 @@
                         </div>
                         <div>
                             <i class='bx bxs-crop' style='color:#ff3e7e' ></i>
-                            <h2>Web/App Design</h2>
+                            <h2>Web/App Dev</h2>
                             <p>Making websites and apps that not only look good but also work smoothly. I focus on creating layouts, buttons, and visuals that are easy on the eyes.</p>
                                 <a href="#portfolio" class="read">Learn more</a>
                         </div>
                         <div>
                             <i class='bx bx-minus-back' style='color:#ff3e7e' ></i>
-                            <h2>Backend Development</h2>
+                            <h2>Back-End Dev</h2>
                             <p>Building the hidden magic behind websites and apps. I focus on creating the servers, databases, and logic that make everything run smoothly.</p>
                                 <a href="#portfolio" class="read">Learn more</a>
                         </div>
@@ -74,11 +94,11 @@
                 </div>
             </div>
         </section>
-
+            
         <h1 class="sub-title">My <span>Skills</span></h1>
 
         <section>
-            <div class="container1" id="Skills">
+            <div class="container1" id="skills">
                 <h1 class="heading1">Technical Skills</h1>
                 <div class="Technical-bars">
                     <div class="bar"><i style="color: #c95d2e" class='bx bxl-html5' style='color:#ff3e7e' ></i>
@@ -132,7 +152,7 @@
                 </div>
             </div>
 
-            <div class="container1">
+            <div class="container2">
                 <h1 class="heading1">Professional Skills</h1>
                 <div class="radial-bars">
 
@@ -246,8 +266,6 @@
      <div class="last-text">
         <p>Developed by Rhealyn Panganiban @ 2023</p>
      </div>
-     <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
-
         <script src="main.js"></script>
     </body>
 </html>
