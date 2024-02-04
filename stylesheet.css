@@ -111,18 +111,6 @@ body {
 }
 
 
-/*.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-    background: #0e0230;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}*/
 
 .logo {
     position: relative;
@@ -135,18 +123,6 @@ body {
     animation: slideRight 1s ease forwards;
 }
 
-/*.navbar a {
-    display: inline-block;
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: .3s;
-    opacity: 0;
-    animation: slideTop .5s ease forwards;
-    animation-delay: calc(.2s * var(--i));
-}*/
 
 
 @media (max-width: 600px) {
@@ -937,19 +913,6 @@ section {
     margin-top: 70px;
 }
 
-/*.top {
-    position: fixed;
-    bottom: 2.1rem;
-    right: 2.1rem;
-}
-
-.top i {
-    color: #000;
-    background: #ff3e7e;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 0.5rem;
-}*/
 
 
 
