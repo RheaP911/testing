@@ -399,7 +399,7 @@ body {
 @media (max-width: 600px) {
     .container {
         width: 100%;
-        padding: 8vh;
+        padding: 8vw;
     }
 
     .sub-title {
