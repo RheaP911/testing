@@ -399,7 +399,8 @@ body {
 @media (max-width: 600px) {
     .container {
         width: 100%;
-        padding: 8vw;
+        padding: 10vw;
+        margin-top: 2rem;
     }
 
     .sub-title {
@@ -697,7 +698,7 @@ section {
         font-size: 50px;
     }
     .radial-bar .text {
-        left: 30%;
+        left: 33%;
     }
 }
 
@@ -791,6 +792,9 @@ section {
     .main-text h2{
         font-size: 50px;
         margin-bottom: -5rem;
+    }
+    .portfolio {
+        padding: 10vw;
     }
 }
 
