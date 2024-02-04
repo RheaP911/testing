@@ -399,7 +399,7 @@ body {
 @media (max-width: 600px) {
     .container {
         width: 100%;
-        align-items: center;
+        padding: 8vh;
     }
 
     .sub-title {
@@ -407,7 +407,8 @@ body {
     }
 
     .services-list {
-        grid-template-columns: repeat(auto-fit,minmax(100%,1fr));
+        grid-template-columns: 1fr;;
+        
     }
 
 }
