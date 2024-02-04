@@ -100,6 +100,16 @@ body {
     transition-delay: 1s;
 }
 
+@media (max-width: 600px) {
+    .nav {
+        bottom: 0rem;
+        right: 0rem;
+    }
+    .nav .navigation.active span {
+        transform: translate(calc(50px * var(--x)), calc(50px * var(--y)));
+    }
+}
+
 
 .header {
     position: fixed;
