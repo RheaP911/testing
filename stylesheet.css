@@ -101,7 +101,6 @@ body {
 }
 
 
-
 .header {
     position: fixed;
     top: 0;
@@ -713,6 +712,9 @@ section {
 }
 .main-text h2 span {
     color: #ff3e7e;
+}
+.portofolio {
+    width: 100%;
 }
 .portfolio-content {
     display: grid;
