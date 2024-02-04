@@ -360,7 +360,7 @@ body {
     color: #ff3e7e;
 }
 .container {
-    padding: 90px;
+    padding: 10vh;
 }
 .services-list {
     display: grid;
