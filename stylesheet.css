@@ -360,12 +360,12 @@ body {
     color: #ff3e7e;
 }
 .container {
-    padding: 10vh;
+    padding: 90px;
 }
 .services-list {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(359px,1fr));
-    grid-gap: 40px;
+    grid-gap: 5vh;
     margin-top: 50px;
 }
 .services-list div {
