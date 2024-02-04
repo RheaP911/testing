@@ -100,69 +100,7 @@ body {
     transition-delay: 1s;
 }
 
-@media (max-width: 600px) {
-    .nav {
-        bottom: 0.66rem;
-        right: 0.66rem;
-        width: 113.3px;
-        height: 113.3px;
-    }
-    .nav .navigation {
-        width: 26.6px;
-        height: 26.6px;
-        transition: 0.3s;
-    }
-    
-    .nav .navigation span {
-        width: 4.6px;
-        height: 4.6px;
-        background: #ff3e7e;
-        transform: translate(calc(9.3px * var(--x)), calc(9.3px * var(--y)));
-        transition: transform 0.3s, width 0.3s, height 0.3s, background 0.3s;
-        border-radius: 0.26cm;
-    }
-    
-    .nav .navigation.active span {
-        width: 30px;
-        height: 30px;
-        transform: translate(calc(40px * var(--x)), calc(40px * var(--y)));
-    }
-    .nav .navigation span i {
-        transition: 0.3s;
-        font-size: 0em;
-        color: #fff;
-    }
-    .nav .navigation.active span i {
-        font-size: 0.9em;
-        transition-delay: calc(0.06s * var(--i));
-    }
-    .nav .navigation.active span:hover i{
-        font-size: 0.9em;
-        filter: drop-shadow(0 0 1.3px #ff3e7e);
-    }
-    
-    .close {
-        width: 4.6px;
-        height: 4.6px;
-        transition: 0.3s;
-        transition-delay: 0.26s;
-        border-radius: 0.26cm;
-    }
-    .nav .navigation.active ~ .close {
-        width: 26.6px;
-        height: 26.6px;
-        transition-delay: 0.53s;
-    }
-    .nav .navigation ~ .close i {
-        font-size: 1.3em;
-        scale: 0;
-        transition: 0.3s;
-    }
-    .nav .navigation.active ~ .close i  {
-        scale: 0.6;
-        transition-delay: 0.6s;
-    }
-}
+
 
 .header {
     position: fixed;
